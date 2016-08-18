@@ -14,18 +14,15 @@ gcc --version
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 which brew
 
-#install rbenv
-brew update
 brew install rbenv ruby-build
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-#install ruby
-rbenv install -v 2.3.1
+# Add rbenv to bash so that it loads every time you open a terminal
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+
+# Install Ruby
+rbenv install 2.3.1
 rbenv global 2.3.1
-
-#install Git from brew
-#brew install git
-
 ruby -v
 
 echo "gem: --no-document" > ~/.gemrc

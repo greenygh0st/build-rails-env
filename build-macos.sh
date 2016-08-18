@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# https://gorails.com/setup/osx/10.11-el-capitan
+
 
 if [ $UID != 0]
 then

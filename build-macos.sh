@@ -16,7 +16,7 @@ which brew
 
 #install rbenv
 brew update
-brew install rbenv ruby-build rbenv-gem-rehash
+brew install rbenv ruby-build
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
 #install ruby

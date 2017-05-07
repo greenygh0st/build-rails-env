@@ -1,12 +1,6 @@
 # make sure you already have nodejs installed
 sudo pacman -Syy
-sudo pacman -Sy nodejs
-sudo pacman -Sy npm
-sudo pacman -Sy dnsutils
-sudo pacman -Sy vi
-sudo pacman -Sy youtube-dl
-sudo pacman -Sy curl
-sudo pacman -Sy kdenlive
+sudo pacman -Sy nodejs npm dnsutils vi youtube-dl curl kdenlive pgadmin3 teamspeak3 redshift
 
 # upgrade everything else
 sudo pacman -Su

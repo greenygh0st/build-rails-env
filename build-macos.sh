@@ -27,3 +27,8 @@ gem install rails
 rbenv rehash
 
 rails -v
+
+# Install database engines
+brew install postgresql
+brew install mysql
+brew install redis

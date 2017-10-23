@@ -13,10 +13,6 @@ sudo apt-get install wget git-core curl zlib1g-dev build-essential libssl-dev li
 
 cd #make sure we are in your home directory
 
-#install atom
-wget https://atom.io/download/deb
-sudo dpkg -i ./atom-amd64.deb
-
 #install rbenv
 git clone git://github.com/sstephenson/rbenv.git .rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile

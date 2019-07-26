@@ -9,7 +9,7 @@ gcc --version
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 which brew
 
-brew install rbenv ruby-build
+brew install rbenv ruby-build node
 
 # Add rbenv to bash so that it loads every time you open a terminal
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile

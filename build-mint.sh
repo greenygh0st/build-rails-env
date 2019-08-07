@@ -20,8 +20,8 @@ git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-buil
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
-rbenv install -v 2.3.1
-rbenv global 2.3.1
+rbenv install -v 2.6.1
+rbenv global 2.6.1
 
 ruby -v
 

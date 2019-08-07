@@ -23,8 +23,8 @@ echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profil
 source ~/.bash_profile
 
 #install ruby
-rbenv install -v 2.3.1
-rbenv global 2.3.1
+rbenv install -v 2.6.1
+rbenv global 2.6.1
 echo "gem: --no-document" > ~/.gemrc #keep loads of un-needed documentation from being installed
 gem install bundler #manages your treasures
 

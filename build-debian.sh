@@ -14,17 +14,17 @@ sudo apt-get install wget git-core curl zlib1g-dev build-essential libssl-dev li
 cd #make sure we are in your home directory
 
 #install rbenv
-git clone git://github.com/rbenv/rbenv.git .rbenv
+git clone https://github.com/rbenv/rbenv.git .rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
-git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
 
 #install ruby
-rbenv install -v 2.7.6
-rbenv global 2.7.6
+rbenv install -v 3.2.2
+rbenv global 3.2.2
 echo "gem: --no-document" > ~/.gemrc #keep loads of un-needed documentation from being installed
 gem install bundler #manages your treasures
 

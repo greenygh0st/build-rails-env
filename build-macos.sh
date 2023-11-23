@@ -16,8 +16,8 @@ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_pr
 source ~/.bash_profile
 
 # Install Ruby
-rbenv install 2.7.6
-rbenv global 2.7.6
+rbenv install 3.2.2
+rbenv global 3.2.2
 ruby -v
 
 echo "gem: --no-document" > ~/.gemrc

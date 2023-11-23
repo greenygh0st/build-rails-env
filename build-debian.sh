@@ -9,7 +9,7 @@ fi
 
 sudo apt-get update
 
-sudo apt-get install wget git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev postgresql-client
+sudo apt-get install wget git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev postgresql-client libmagickwand-dev imagemagick
 
 cd #make sure we are in your home directory
 

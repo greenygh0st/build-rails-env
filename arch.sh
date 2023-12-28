@@ -1,4 +1,4 @@
-sudo pacman -S base-devel nodejs npm
+sudo pacman -S base-devel nodejs npm docker
 
 cd # make sure we are in home
 
